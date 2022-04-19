@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Taxi Trip</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Taxi Trip</h1>
+
+        <p id="subheader">An introduction to graphing lines!</p>
+
+        <img id="taxi-image1" src="taxi.png" alt="">
+
+        <div id="intro">
+            <p>
+                Let's try one more problem. Graph a line with <br>
+                a slope of -0.5 and an intercept of 6. Keeping the <br>
+                below equation in mind, what is y equal to when x is 5?
+            </p>
+        </div>
+        <p id="equation">y = mx + b</p>
+        <img id="driver-image" src="driver.png" alt="">
+        <div id="circle1"></div>
+        <div id="circle2"></div>
+
+        <p id="m-value">m = <span id="m-num"></span> (slope)</p>
+        <div class="slider-container">
+            <input type="range" min="-5" max="5" step="0.05" value="0.5" class="slider" id="m-slider">
+        </div>
+        <div class="slider-container">
+            <input type="range" min="0" max="15" step="0.05" value="1.5" class="slider" id="b-slider">
+        </div>
+        <p id="b-value">b = <span id="b-num"></span> (y-intercept)</p>
+
+        <p id="y-axis">y</p>
+        <p id="vert-nums">
+            15 <br> <br> <br> <br> <br> <br> <br> <br> 
+            10 <br> <br> <br> <br> <br> <br> <br> <br> 
+            5 <br> <br> <br> <br> <br> <br> <br> <br> 
+            0 <br> <br> <br> <br> <br> <br> <br> <br> 
+        </p>
+        <p id="x-axis">x</p>
+        <div class="horiz-nums">
+            <p id="num-0">0</p>
+            <p id="num-5">5</p>
+            <p id="num-10">10</p>
+            <p id="num-15">15</p>
+        </div>
+
+        <p id="page-count">page 11 of 12</p>
+
+        <canvas id="myCanvas" width="600" height="600";></canvas>
+
+        <a class="button" id="prev-page" href="index10.html">prev</a>
+        <a class="button" id="next-page" href="index12.html">next</a>
+
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>

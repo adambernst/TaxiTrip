@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Taxi Trip</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Taxi Trip</h1>
+
+        <p id="subheader">An introduction to graphing lines!</p>
+
+        <img id="taxi-image1" src="taxi.png" alt="">
+
+        <div id="intro">
+            <p>
+                Good work! Let's say my rates change again, so that the <br>
+                price per block is $1 and the flat fee is $1. How <br>
+                would that look?
+            </p>
+        </div>
+        <img id="taxi-image2" src="taxi.png" alt="">
+        <img id="driver-image" src="driver.png" alt="">
+        <div id="circle1"></div>
+        <div id="circle2"></div>
+        <div id="circle3"></div>
+
+        <p id="m-value">$<span id="m-num"></span> per block</p>
+        <div class="slider-container">
+            <input type="range" min="0" max="5" step="0.05" value="1.75" class="slider" id="m-slider">
+        </div>
+        <div class="slider-container">
+            <input type="range" min="0" max="5" step="0.05" value="2" class="slider" id="b-slider">
+        </div>
+        <p id="b-value">$<span id="b-num"></span> flat fee</p>
+
+        <p id="vert-nums">
+            15 <br> <br> <br> <br> <br> <br> <br> <br> 
+            10 <br> <br> <br> <br> <br> <br> <br> <br> 
+            5 <br> <br> <br> <br> <br> <br> <br> <br> 
+            0 <br> <br> <br> <br> <br> <br> <br> <br> 
+        </p>
+        <p id="y-axis-label">(dollars)</p>
+        <div class="horiz-nums">
+            <p id="num-0">0</p>
+            <p id="num-5">5</p>
+            <p id="num-10">10</p>
+            <p id="num-15">15</p>
+        </div>
+        <p id="x-axis-label">(blocks)</p>
+
+        <p id="page-count">page 6 of 12</p>
+
+        <canvas id="myCanvas" width="600" height="600";></canvas>
+
+        <a class="button" id="prev-page" href="index5.html">prev</a>
+        <a class="button" id="next-page" href="index7.html">next</a>
+
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>

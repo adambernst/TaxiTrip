@@ -1,0 +1,265 @@
+@import url('http://fonts.cdnfonts.com/css/apple-casual');
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    color: black;
+    margin-left: 100px;
+}
+
+#subheader {
+    font-size: 17px;
+    position: absolute;
+    top: 75px;
+    left: 115px;
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+    font-family: 'Apple Casual', sans-serif;
+}
+
+#equation {
+    float: left;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#intro {
+    float: left;
+    position: absolute;
+    top: 125px;
+    left: 185px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 5px 25px;
+}
+
+#taxi-image1 {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+#taxi-image2 {
+    width: 170px;
+    height: auto;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+
+#driver-image {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
+
+#circle1 {
+    height: 8px;
+    width: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 270px;
+    left: 170px;
+}
+
+#circle2 {
+    height: 13px;
+    width: 13px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+
+#circle3 {
+    height: 16px;
+    width: 16px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
+
+.button {
+    background: yellow;
+    height: 30px;
+    width: 80px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+#prev-page {
+    position: absolute;
+    top: 620px;
+    right: 600px;
+}
+
+#next-page {
+    position: absolute;
+    top: 620px;
+    right: 200px;
+}
+
+canvas {
+    height: 470px;
+    width: auto;
+    border: 1px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 0;
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    float: left;
+}
+
+#vert-nums {
+    position: absolute;
+    font-size: 19px;
+    top: 63px;
+    right: 680px;
+}
+
+#y-axis-label {
+    position: absolute;
+    font-size: 17px;
+    top: 300px;
+    right: 710px;
+    writing-mode: vertical-lr;
+}
+
+#x-axis-label {
+    position: absolute;
+    font-size: 17px;
+    top: 580px;
+    right: 410px;
+}
+
+#y-axis {
+    position: absolute;
+    font-size: 18px;
+    top: 40px;
+    right: 670px;
+    font-style: italic;
+}
+
+#x-axis {
+    position: absolute;
+    font-size: 18px;
+    top: 520px;
+    right: 170px;
+    font-style: italic;
+}
+
+.horiz-nums {
+    font-size: 19px;
+}
+
+#num-0 {
+    position: absolute;
+    top: 545px;
+    right: 670px;
+}
+
+#num-5 {
+    position: absolute;
+    top: 545px;
+    right: 500px;
+}
+
+#num-10 {
+    position: absolute;
+    top: 545px;
+    right: 350px;
+}
+
+#num-15 {
+    position: absolute;
+    top: 545px;
+    right: 190px;
+}
+
+#page-count {
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top: 650px;
+    left: 600px;
+}
+
+/* begin slider settings */
+
+#m-slider {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+#m-value {
+    position: absolute;
+    top: 460px;
+    left: 110px;
+}
+
+#b-slider {
+    position: absolute;
+    top: 580px;
+    left: 100px;
+}
+
+#b-value {
+    position: absolute;
+    top: 540px;
+    left: 110px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 30%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #818181;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: yellow;
+    cursor: pointer;
+}
+
+/* end slider settings */
