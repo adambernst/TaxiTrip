@@ -5,11 +5,6 @@ by Adam Bernstein
 for Phenomena Internship Application Coding Assignment
 =================================================================================
 
-Still to do:
-- comment code nicely and remove commented out code
-- upload to github
-
-
 Taxi Trip is an interactive website that teaches kids about the equation 
  y = mx + b.
 
